@@ -35,8 +35,8 @@ spec:
     spec:
       containers:
         - name: blazorclient
-          image: eshopdapr/blazor.client:latest
-          imagePullPolicy: IfNotPresent
+          image: 192.168.1.3:5000/blazor.client:latest
+          imagePullPolicy: Always
           ports:
             - name: client-http
               containerPort: 80

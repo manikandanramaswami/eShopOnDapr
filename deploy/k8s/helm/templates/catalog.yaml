@@ -40,8 +40,8 @@ spec:
     spec:
       containers:
         - name: catalog-api
-          image: eshopdapr/catalog.api:latest
-          imagePullPolicy: IfNotPresent
+          image: 192.168.1.3:5000/catalog.api:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
               protocol: TCP

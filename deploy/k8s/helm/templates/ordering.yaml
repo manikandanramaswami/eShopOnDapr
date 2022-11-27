@@ -42,8 +42,8 @@ spec:
     spec:
       containers:
         - name: ordering-api
-          image: eshopdapr/ordering.api:latest
-          imagePullPolicy: IfNotPresent
+          image: 192.168.1.3:5000/ordering.api:latest
+          imagePullPolicy: Always
           ports:
             - name: api-http
               containerPort: 80
