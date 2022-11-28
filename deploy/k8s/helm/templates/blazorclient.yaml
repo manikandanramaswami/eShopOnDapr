@@ -35,7 +35,7 @@ spec:
     spec:
       containers:
         - name: blazorclient
-          image: 192.168.1.3:5000/blazor.client:latest
+          image: eshopcontainerreg.azurecr.io/blazor.client:latest
           imagePullPolicy: Always
           ports:
             - name: client-http

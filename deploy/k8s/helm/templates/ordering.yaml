@@ -42,7 +42,7 @@ spec:
     spec:
       containers:
         - name: ordering-api
-          image: 192.168.1.3:5000/ordering.api:latest
+          image: eshopcontainerreg.azurecr.io/ordering.api:latest
           imagePullPolicy: Always
           ports:
             - name: api-http
