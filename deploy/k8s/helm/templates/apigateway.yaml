@@ -61,7 +61,7 @@ spec:
         image: eshopcontainerreg.azurecr.io/webshoppingapigw:latest
         imagePullPolicy: Always
         securityContext:
-          runAsUser: 1111        
+          runAsUser: 0        
         ports:
           - name: http
             containerPort: 80
